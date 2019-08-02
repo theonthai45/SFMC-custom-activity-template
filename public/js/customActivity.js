@@ -1,20 +1,18 @@
 define(['postmonger'], function (Postmonger) {
     'use strict';
-    
-    var connection = new Postmonger.Session();
-    var authTokens = {};
-    var payload = {};
+
+    let connection = new Postmonger.Session();
+    let authTokens = {};
+    let payload = {};
    
     // Configuration variables
-    let eventSchema = ''; // Contact:
-    let lastnameSchema = ''; //Last Name || LastName
+    let eventSchema = ''; // variable is used in parseEventSchema()
+    let lastnameSchema = ''; // variable is used in parseEventSchema()
     let eventDefinitionKey;
 
     $(window).ready(onRender);
-
     connection.on('initActivity', initialize);
     connection.on('clickedNext', save); //Save function within MC
-   
 
     function onRender() {
         // JB will respond the first time 'ready' is called with 'initActivity'
@@ -62,6 +60,9 @@ define(['postmonger'], function (Postmonger) {
      * @param {*} data
      * 
      * This data param is the config json payload that needs to be loaded back into the UI upon opening the custom application within journey builder 
+     * This function is invoked when the user clicks on the custom activity in Marketing Cloud. 
+     * If there are information present, it should be loaded back into the appropriate places. 
+     * e.g. input fields, select lists
      */
     function initialLoad (data) {
     };
