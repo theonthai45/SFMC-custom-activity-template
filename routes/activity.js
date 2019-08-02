@@ -129,8 +129,9 @@ exports.stop = function (req, res) {
 /**
  * This function relies on the env variables to be set
  * 
- * clientId
- * clientSecret
+ * This function invokes the enhanced package authentication. 
+ * This would return a access token that can be used to call additional Marketing Cloud APIs
+ * 
  */
 function retrieveToken () {
     axios.post(tokenURL, { // Retrieving of token

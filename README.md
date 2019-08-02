@@ -1,5 +1,5 @@
 # Marketing Cloud Journey Builder Custom Activity Template
-> This template for Marketing Cloud Journey Builder 
+> This template for Marketing Cloud Journey Builder Custom Activity. It is hosted on Heroku and running on NodeJS
 
 
 This application is to be hosted on Heroku with specific credentials set up in the environment variables for it to be linked with Marketing Cloud.
@@ -27,7 +27,6 @@ Necessary steps thats required to set up the application.
 6. Grab the Authentication Base URI and place it within the environment variable in Heroku.
     - `authenticationUrl`
 7. Grab the HTTPS URL that is created by Heroku and place it within config.json replacing `<HTTPS_URL_OF_APP>`.
-
 
 ## Release History
 
