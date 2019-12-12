@@ -19,7 +19,7 @@ Necessary steps thats required to set up the application.
 1. Create an package within Marketing Cloud.
 2. Add the API integration component making sure it's a Server - Server integration.
 3. Add the Journey Builder Activity component.
-4. Grab the unique key from the journey builder activity and place it within `config.json`.
+4. Grab the `unique key` from the journey builder activity and place it within `config.json`.
 5. Grab the client ID, client secret, JWT Signing Secret and place it within Heroku as a env variables.
     - `jwtSecret`
     - `clientId`
@@ -32,6 +32,8 @@ Necessary steps thats required to set up the application.
 
 * 1.0.0
     * Initial Push with overall working template
+* 1.0.1
+    * Updated package json
 
 ## Meta
 

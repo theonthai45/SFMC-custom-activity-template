@@ -1,9 +1,9 @@
 {
-  "name": "smsph",
-  "version": "1.0.0",
+  "name": "smsTemplate",
+  "version": "1.0.1",
   "description": "Send SMS Journey Builder",
   "engines": {
-    "node": "6.11.1"
+    "node": "^12.12.16"
   },
   "scripts": {
     "start": "node app.js"
@@ -18,27 +18,27 @@
     "salesforce marketing cloud",
     "heroku"
   ],
-  "author": "Test",
+  "author": "TheonThai",
   "homepage": "",
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.19.0",
     "base64url": "^3.0.1",
-    "body-parser": "^1.18.2",
+    "body-parser": "^1.19.0",
     "bower": "^1.8.8",
-    "errorhandler": "^1.5.0",
-    "express": "^4.15.4",
-    "express-handlebars": "^3.0.2",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
     "file-system": "^2.2.2",
-    "jsforce": "^1.9.1",
-    "jsonwebtoken": "^8.0.1",
+    "jsforce": "^1.9.3",
+    "jsonwebtoken": "^8.5.1",
     "njwt": "^1.0.0",
-    "node-libcurl": "^1.3.3",
+    "node-libcurl": "^2.0.3",
     "path": "^0.12.7",
-    "pg": "^7.10.0",
-    "request": "^2.81.0",
+    "pg": "^7.14.0",
+    "request": "^2.88.0",
     "require": "^2.4.20",
-    "sfmc-fuelsdk-node": "^2.2.1",
-    "superagent": "^4.1.0",
-    "uglify-js": "^3.4.9"
+    "sfmc-fuelsdk-node": "^2.4.0",
+    "superagent": "^5.1.2",
+    "uglify-js": "^3.7.2"
   }
 }

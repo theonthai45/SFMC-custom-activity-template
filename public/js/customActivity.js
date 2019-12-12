@@ -4,7 +4,7 @@ define(['postmonger'], function (Postmonger) {
     let connection = new Postmonger.Session();
     let authTokens = {};
     let payload = {};
-   
+
     // Configuration variables
     let eventSchema = ''; // variable is used in parseEventSchema()
     let lastnameSchema = ''; // variable is used in parseEventSchema()
@@ -22,17 +22,17 @@ define(['postmonger'], function (Postmonger) {
     }
 
     /**
-     * This function is to pull out the event definition without journey builder.
+     * This function is to pull out the event definition within journey builder.
      * With the eventDefinitionKey, you are able to pull out values that passes through the journey
      */
     connection.trigger('requestTriggerEventDefinition');
-    connection.on('requestedTriggerEventDefinition',function (eventDefinitionModel) {
+    connection.on('requestedTriggerEventDefinition', function (eventDefinitionModel) {
         if (eventDefinitionModel) {
             eventDefinitionKey = eventDefinitionModel.eventDefinitionKey;
             // console.log('Request Trigger >>>', JSON.stringify(eventDefinitionModel));
         }
     });
-    
+
     function initialize(data) {
         if (data) {
             payload = data;
@@ -64,7 +64,7 @@ define(['postmonger'], function (Postmonger) {
      * If there are information present, it should be loaded back into the appropriate places. 
      * e.g. input fields, select lists
      */
-    function initialLoad (data) {
+    function initialLoad(data) {
     };
 
 
@@ -99,7 +99,7 @@ define(['postmonger'], function (Postmonger) {
                     let splitName = lastnameSchema.split(":");
                     let reg = new RegExp(splitName[splitName.length - 1], "g");
                     let oldSchema = splitArr[splitArr.length - 1];
-                    
+
                     eventSchema = oldSchema.replace(reg, "");
                     console.log("Event Schema >>", eventSchema);
                 }
