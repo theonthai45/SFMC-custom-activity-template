@@ -1,3 +1,7 @@
+# SFMC released a updated and official version of a Custom Activity Template
+[This would be better than mine](https://github.com/salesforce-marketingcloud/sfmc-example-jb-custom-activity)
+
+
 # Marketing Cloud Journey Builder Custom Activity Template
 > This template for Marketing Cloud Journey Builder Custom Activity. It is hosted on Heroku and running on NodeJS
 
