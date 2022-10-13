@@ -39,7 +39,7 @@
     
     "configurationArguments":
     {
-        "applicationExtensionKey": "<APP EXTENSION KEY>",
+        "applicationExtensionKey": "<4be114cc-56e7-4f98-8ac4-0e7eb3134cbb>",
         "save":
         {
             "url": "<https://git.heroku.com/aqueous-taiga-34002.git>/journeybuilder/save",
