@@ -27,7 +27,7 @@
               }
             ],
             "outArguments": [],
-            "url": "<https://git.heroku.com/aqueous-taiga-34002.git>/journeybuilder/execute",
+            "url": "<https://aqueous-taiga-34002.herokuapp.com/>/journeybuilder/execute",
             "verb": "POST",
             "body": "",
             "header": "",
@@ -42,25 +42,25 @@
         "applicationExtensionKey": "<4be114cc-56e7-4f98-8ac4-0e7eb3134cbb>",
         "save":
         {
-            "url": "<https://git.heroku.com/aqueous-taiga-34002.git>/journeybuilder/save",
+            "url": "<https://aqueous-taiga-34002.herokuapp.com/>/journeybuilder/save",
             "verb": "POST",
             "useJwt": true
         },
         "publish":
         {
-            "url": "<https://git.heroku.com/aqueous-taiga-34002.git>/journeybuilder/publish",
+            "url": "<https://aqueous-taiga-34002.herokuapp.com/>/journeybuilder/publish",
             "verb": "POST",
             "useJwt": true
         },
         "stop":
         {
-            "url": "<https://git.heroku.com/aqueous-taiga-34002.git>/journeybuilder/stop",
+            "url": "<https://aqueous-taiga-34002.herokuapp.com/>/journeybuilder/stop",
             "verb": "POST",
             "useJwt": true
         },
         "validate":
         {
-            "url": "<https://git.heroku.com/aqueous-taiga-34002.git>/journeybuilder/validate",
+            "url": "<https://aqueous-taiga-34002.herokuapp.com/>/journeybuilder/validate",
             "verb": "POST",
             "useJwt": true
         }
