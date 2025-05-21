@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "Send SMS Journey Builder",
   "engines": {
-    "node": "^12.12.16"
+    "node": "^20.0.0"
   },
   "scripts": {
     "start": "node app.js"
@@ -21,24 +21,23 @@
   "author": "TheonThai",
   "homepage": "",
   "dependencies": {
-    "axios": "^0.21.2",
+    "axios": "^1.9.0",
     "base64url": "^3.0.1",
-    "body-parser": "^1.19.0",
-    "bower": "^1.8.8",
+    "body-parser": "^2.2.0",
     "errorhandler": "^1.5.1",
-    "express": "^4.17.1",
-    "express-handlebars": "^5.3.1",
+    "express": "^5.1.0",
+    "express-handlebars": "^5.3.5",
     "file-system": "^2.2.2",
-    "jsforce": "^1.9.3",
-    "jsonwebtoken": "^8.5.1",
-    "njwt": "^1.0.0",
-    "node-libcurl": "^2.0.3",
+    "jsforce": "^3.8.1",
+    "jsonwebtoken": "^9.0.2",
+    "njwt": "^2.0.1",
+    "node-libcurl": "^4.1.0",
     "path": "^0.12.7",
-    "pg": "^7.14.0",
-    "request": "^2.88.0",
+    "pg": "^8.16.0",
+    "request": "^2.88.2",
     "require": "^2.4.20",
     "sfmc-fuelsdk-node": "^2.4.0",
-    "superagent": "^5.1.2",
-    "uglify-js": "^3.7.2"
+    "superagent": "^10.2.1",
+    "uglify-js": "^3.19.3"
   }
 }
